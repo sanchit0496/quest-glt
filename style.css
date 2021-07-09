@@ -16,7 +16,7 @@ td{
     padding: 1vh;
 }
 tr{
-    font-size: 2.5vh;
+    font-size: 2.2vh;
     cursor: pointer;
 }
 tr:nth-child(odd){
@@ -62,9 +62,10 @@ span{
     padding-right: 4vh;
 }
 #searchRental{
-    padding: 5px;
+    padding: 8px;
     height: 2.5vh;
     width: 35vh;
+    margin-bottom: 1vh;
 }
 #book{
     background-color: white;
@@ -91,6 +92,7 @@ span{
     margin-right: auto;
 }
 .modal{
+    visibility: hidden;
     position: absolute;
     top:50%;
     left: 50%;
@@ -98,7 +100,6 @@ span{
     z-index: 1;
     background-color: whitesmoke;
     padding: 15vh;
-    visibility: hidden;
     /* animation-delay: 12s; */
 }
 ul{

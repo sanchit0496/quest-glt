@@ -1,13 +1,12 @@
 let data = document.getElementById('data')
+let modal = document.getElementById('modal')
 let refresh = document.getElementById('refresh')
 let book = document.getElementById('book')
-let modal = document.getElementById('modal')
-
-
 
 //adding to and from date for calculating duration
 let fromdate = document.getElementById('fromdt')
 let todate = document.getElementById('todt')
+
 
 //example data
 // availability: true
@@ -105,7 +104,12 @@ function myDisplay(y){
 }
 
 
+//onclicking this button the visibility of modal will be set to visible
+//currently it is set to hidden in the middle of the screen with animation for better UI
 
+// book.addEventListener('onclick', 
+//     modal.style.visibility = 'visible',
+// ) 
 
 //adding logics
 
@@ -128,15 +132,7 @@ if(y[i].type === 'meter'){
 }
 
 
-//refresh page
-refresh.addEventListener('click', alert('clicked'))
 
 
-//onclicking this button the visibility of modal will be set to visible
-//currently it is set to hidden in the middle of the screen with animation for better UI
-book.addEventListener('onload', 
-    modal.style.visibility = 'visible',
-    data.style.visibility = 'hidden'
-) 
 
 
