@@ -21,16 +21,52 @@
 
         <div class="right">
         <input id="interview" type="text" placeholder="Quest GLT UI Interview: Sanchit">
-        <input id="websiteSearch" placeholder="Search Website" type="search">
+        <!-- <input id="websiteSearch" placeholder="Search Website" type="search"> -->
         </div>
     </nav>
 
     <!-- input for searching in the table -->
-    <input id="searchRental" type="text" placeholder="Search Rental">
+    <div id="search">
+        <input id="searchRental" type="text" placeholder="Search Rental">
+    </div>
 
 
     <!-- table where data is displayed after fetching from JSON -->
     <table id = "data"></table>
+
+    <div id="buttons">
+    <!-- input for booking the Rental -->
+    <input type="submit" id = "book" value = "Book">
+
+    <!-- input to refresh page -->
+    <input type="submit"  id = "refresh" value = "Refresh">
+    </div>
+
+    
+    <!-- creating modal
+    name, rental period, mileage and whether the product needs to be fixed. 
+    -->
+    <div id="modal" class="modal">
+        <p>Congratulations on Your Rental!</p>
+        <p>Here are your booking details</p>
+        <ul>
+            <li>
+                Name: 
+            </li>
+            <li>
+                Period: 
+            </li>
+            <li>
+                Mileage: 
+            </li>
+            <li>
+                Needs Fix: 
+            </li>
+        </ul>
+        From: <input type="date" id = "fromdt">
+        To: <input type="date" id = "todt">
+        
+    </div>
 
 
 </body>
