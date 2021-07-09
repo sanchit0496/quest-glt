@@ -38,8 +38,9 @@ function myDisplay(y){
 //using the search term
 let term = document.getElementById('searchRental');
 
-term.addEventListener("keydown", e => {
-    console.log(e.target.value)
+term.addEventListener("keyup", e => {
+    let rental = e.target.value
+    console.log(rental);
 })
 
 
