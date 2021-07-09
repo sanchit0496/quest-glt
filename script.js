@@ -35,7 +35,7 @@ function myDisplay(y){
     data.innerHTML = output;
 
 
-    //using the search term
+    //using the search term and displaying the matching words
     let term = document.getElementById('searchRental');
 
     term.addEventListener("keyup", e => {
@@ -72,6 +72,8 @@ function myDisplay(y){
         data.innerHTML = newoutput;
 
     })
+
+    
 
 
 }

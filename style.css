@@ -17,6 +17,7 @@ td{
 }
 tr{
     font-size: 2vh;
+    cursor: pointer;
 }
 tr:nth-child(odd){
     background-color: rgb(229, 241, 245);
