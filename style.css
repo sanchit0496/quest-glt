@@ -91,8 +91,8 @@ span{
     margin-left: auto;
     margin-right: auto;
 }
-.modal{
-    visibility: hidden;
+#modal{
+    display: none;
     position: absolute;
     top:50%;
     left: 50%;

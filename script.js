@@ -7,6 +7,13 @@ let book = document.getElementById('book')
 let fromdate = document.getElementById('fromdt')
 let todate = document.getElementById('todt')
 
+function zoom()
+{
+    modal.style.display = 'block';
+}
+book.onclick = zoom;
+
+
 
 //example data
 // availability: true
