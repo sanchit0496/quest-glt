@@ -1,5 +1,6 @@
 let data = document.getElementById('data')
 
+//fetching data and creating table
 fetch('data.json')
 .then(x => x.json())
 .then(y => myDisplay(y));
@@ -34,5 +35,13 @@ function myDisplay(y){
     data.innerHTML = output;
 }
  
+//using the search term
+let term = document.getElementById('searchRental');
+
+term.addEventListener("keydown", e => {
+    console.log(e.target.value)
+})
 
 
+
+//adding logics

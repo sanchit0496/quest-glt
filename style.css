@@ -22,9 +22,34 @@ tr:nth-child(odd){
     background-color: rgb(229, 241, 245);
 }
 nav{
+    display: flex;
     height: 10vh;
-    background: linear-gradient(rgb(198, 198, 224), white);
+    background: rgb(198, 232, 243);
 }
-nav span{
-    margin-top:8vh;
+.left{
+    margin-top: 3vh;
+    margin-left: 5vh;
+}
+span{
+    padding: 2vh;
+}
+.right{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+}
+#interview{
+    padding: 5px;
+    height: 3.5vh;
+    width: 55vh;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+#websiteSearch{
+    padding: 5px;
+    height: 5vh;
+    width: 35vh;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-left: 5vh;
 }

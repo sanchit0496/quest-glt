@@ -10,15 +10,26 @@
 </head>
 <body>
     
+    <!-- creating navbar -->
     <nav>
-        <span>Home</span>
-        <span>About Us</span>
-        <span>Gallery</span>
-        <span>Achievements</span>
+        <div class="left">
+            <span>Home</span>
+            <span>About Us</span>
+            <span>Gallery</span>
+            <span>Achievements</span>
+        </div>
 
-        <input type="text" placeholder="Quest GLT UI Interview: Sanchit">
-        <input type="search">
+        <div class="right">
+        <input id="interview" type="text" placeholder="Quest GLT UI Interview: Sanchit">
+        <input id="websiteSearch" placeholder="Search Website" type="search">
+        </div>
     </nav>
+
+    <!-- input for searching in the table -->
+    <input id="searchRental" type="text" placeholder="Search Rental">
+
+
+    <!-- table where data is displayed after fetching from JSON -->
     <table id = "data"></table>
 
 
